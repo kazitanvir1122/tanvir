@@ -60,7 +60,7 @@ body {
 .hero-circle {
   width: 200px;
   height: 200px;
-  background: radial-gradient(circle, #bf27dee2, #801a92);
+  background:rgb(154, 4, 139);
   border-radius: 50%;
   margin: 30px auto;
   display: flex;
@@ -93,7 +93,7 @@ body {
 }
 
 .stat h3 {
-  color: #00ff9d;
+  color: #05e48f;
 }
 
 /* Features */
@@ -184,4 +184,10 @@ width: 120px;   /* decrease size */
   .episode-grid {
     grid-template-columns: 1fr;
   }
+}
+.btn{
+    background-color:rgb(15, 1, 15)
+}
+.btn-outline{
+    border-color: #0e8155;
 }
