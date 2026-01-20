@@ -173,27 +173,144 @@ width: 120px;   /* decrease size */
 
 }
 
-/* 📱 Mobile Responsive */
-@media (max-width: 700px) {
+/*mobile responsive*/
 
-  .navbar {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .stats {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .feature-grid,
-  .episode-grid {
-    grid-template-columns: 1fr;
-  }
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
 }
+
+/* Body */
+body{
+  background:#14001f;
+  color:#ffffff;
+}
+
+/* Navbar */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:16px;
+}
+
+.logo span{
+  color:#ff4ecd;
+}
+
+.menu{
+  font-size:24px;
+  cursor:pointer;
+}
+
+/* Hero Section */
+.hero{
+  text-align:center;
+  padding:40px 16px;
+}
+
+.badge{
+  background:#00ff9d;
+  color:#000;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+}
+
+.circle{
+  width:150px;
+  height:150px;
+  margin:20px auto;
+  border-radius:50%;
+  background:radial-gradient(#ff4ecd,#6a00ff);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.circle img{
+  width:45px;
+}
+
+/* Buttons */
 .btn{
-    background-color:rgb(15, 1, 15)
+  width:100%;
+  margin-top:10px;
+  padding:12px;
+  border:none;
+  border-radius:25px;
+  background:linear-gradient(45deg,#ff4ecd,#8f4cff);
+  color:#fff;
+  cursor:pointer;
 }
-.btn-outline{
-    border-color: #0e8155;
+
+.btn.outline{
+  background:transparent;
+  border:1px solid #ff4ecd;
 }
+
+/* Stats (2x2 grid) */
+.stats{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  padding:20px;
+  text-align:center;
+}
+
+.stats h3{
+  color:#00ff9d;
+}
+
+/* Features */
+.features{
+  padding:40px 16px;
+  text-align:center;
+}
+
+.card{
+  background:#1f0430;
+  padding:20px;
+  margin-top:15px;
+  border-radius:15px;
+}
+
+/* Episodes */
+.episodes{
+  padding:40px 16px;
+  text-align:center;
+}
+
+.episode{
+  background:#1f0430;
+  margin-top:20px;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+.episode img{
+  width:100%;
+}
+
+/* Host */
+.host{
+  text-align:center;
+  padding:40px 16px;
+}
+
+.host img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+}
+
+/* Footer */
+.footer{
+  text-align:center;
+  padding:20px;
+  background:#0d0015;
+}
+
