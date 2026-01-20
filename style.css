@@ -159,16 +159,22 @@ width: 120px;   /* decrease size */
   gap: 10px;
     
 }
+.social{
+    display: flex;
+    font-size: small;
+    margin: 2px;
+}
 
 /* Footer */
 .footer {
   text-align: center;
-  padding: 30px;
-  background: #1f0330;
+  padding: 90px;
+  background: #2c0445;
+
 }
 
 /* 📱 Mobile Responsive */
-@media (max-width: 750px) {
+@media (max-width: 700px) {
 
   .navbar {
     flex-direction: column;
