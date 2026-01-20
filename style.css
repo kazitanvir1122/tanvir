@@ -6,7 +6,7 @@
 }
 
 body {
-  background: hsl(278, 67%, 10%);
+  background: hsl(277, 75%, 14%);
   color:#FFFF;
 }
 
@@ -51,15 +51,16 @@ body {
 .badge {
   background: #0ce894;
   color: black;
-  padding: 5px 12px;
-  border-radius: 20px;
+  padding: 7px 13px;
+  border-radius: 21px;
   font-size: 12px;
+  color: black;
 }
 
 .hero-circle {
   width: 200px;
   height: 200px;
-  background: radial-gradient(circle, #ef1ab3, #6502f1);
+  background: radial-gradient(circle, #bf27dee2, #801a92);
   border-radius: 50%;
   margin: 30px auto;
   display: flex;
@@ -73,6 +74,7 @@ body {
 
 .hero-buttons {
   margin-top: 60px;
+  border-bottom: #16dc90;
 }
 
 /* About */
@@ -138,20 +140,23 @@ body {
 
 /* Host */
 .host {
+
   text-align: center;
   padding: 60px 20px;
 }
 
 .host img {
-    display: flex;
+   display: flexbox;
   width: 110px;
   height: 120px;
   border-radius: 40%;
+  
 }
 .social-logo{
     display: flex;
 width: 120px;   /* decrease size */
   height: auto;
+  gap: 10px;
     
 }
 
